@@ -3,13 +3,13 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background: #f4f4f9;
-  color: #333;
+  background: #60c8ac;
+  color: #ffffff;
 }
 
 header {
-  background: #333;
-  color: #fff;
+  background: #ffffff;
+  color: #60c8ac;
   padding: 10px 20px;
 }
 
@@ -24,7 +24,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: #fff;
+  color: #60c8ac;
   text-decoration: none;
 }
 
@@ -35,7 +35,7 @@ section {
 }
 
 .project {
-  background: #fff;
+  background: #60c8ac;
   padding: 15px;
   margin: 10px 0;
   border-radius: 8px;
