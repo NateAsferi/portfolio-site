@@ -1,70 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nathan Asferi | Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nathan Asferi | SWE Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
+    <h1>Nathan Asferi</h1>
     <nav>
       <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
+    <section class="hero">
+      <h2>Aspiring Software Engineer</h2>
+      <p>Bridging creativity and technology — from teaching coding to building scalable applications.</p>
+    </section>
   </header>
 
   <section id="about">
-    <h1>Hello, I’m Nathan Asferi!</h1>
-    <p>Aspiring SWE | George Mason University | 2026</p>
-  </section>
-
-  <section id="education">
-    <h2>Education</h2>
-    <p><strong>George Mason University</strong> — B.S. Computer Science (Graduating Dec 2026)</p>
-    <p>Relevant Coursework: Data Structures and Algorithms, Systems Programming, Software Engineering</p>
-  </section>
-
-<section id="skills">
-    <h2>Skills</h2>
-    <p>Programming Languages: Python, Java, C, C++, C#</p>
-    <p>Hardware & Embedded: Arduino, ESP32, KiCad, Servo Motors, Ultrasonic Sensors</p>
-    <p>Tools & Technologies: Git/GitHub, Linux/Unix, 3D Printing, Breadboard Prototyping</p>
+    <h2>About Me</h2>
+    <p>
+      I’m a college student attending George Mason University studying Computer Science. I currently work as a before and after school program instructor 
+      teaching programming💻, 3D printing🖨️, and robotics🤖. Apart from coding, I'm a big fan of table top rpgs🎲, video games👾, and soccer⚽!
+    </p>
   </section>
 
   <section id="projects">
     <h2>Projects</h2>
-    <div class="projects-grid">
 
-        <div class="project-card">
-        <h3>Unmanned Aerial Vehicle (UAV) — BLIMP Course</h3>
-        <p>10-week course designing functional blimp prototypes. Programmed ESP32 microcontrollers for servo control, sensor feedback, and wireless input. Applied aerodynamics and avionics wiring for stable flight.</p>
-        </div>
-
-        <div class="project-card">
-        <h3>Custom Game Engine (C++/CMake)</h3>
-        <p>Developing a C++ game engine from scratch, implementing rendering, input handling, and resource management systems. Gaining experience with modular design and engine architecture.</p>
-        </div>
-
-        <div class="project-card">
-        <h3>D&D Rules AI</h3>
-        <p>A parser and AI assistant trained on D&D rules to answer player queries.</p>
-        <a href="https://github.com/yourusername/dnd-rules-ai" target="_blank">GitHub Repo</a>
-        </div>
-
+    <div class="project">
+      <h3>cyEngine</h3>
+      <p>
+        A custom lightweight game engine from scratch in Modern C++.
+      </p>
+      <a href="https://github.com/NateAsferi/cyengine">View on GitHub</a>
     </div>
-    </section>
+
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>
+        This website is built with HTML, CSS, and JavaScript. 
+        Showcases my skills, projects, and contact information in a clean, mobile-friendly design.
+      </p>
+      <a href="https://github.com/NateAsferi/portfolio-site">View on GitHub</a>
+    </div>
+
+    <div class="project">
+      <h3>UAV Blimp</h3>
+      <p>
+        Designing an autonomous UAV blimp for stable indoor flight and modular payloads.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>Python</li>
+      <li>Java</lI>
+      <li>C/C++</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>SQL</li>
+      <li>Arduino</li>
+      <li>Git</li>
+      <li>GitHub</li>
+    </ul>
+  </section>
 
   <section id="contact">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:nathanasferi0@gmail.com">nathanasferi0@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/nathan-asferi-603714265/">linkedin.com/in/nathan-asferi-603714265</a></p>
-    <p>GitHub: <a href="https://github.com/NateAsferi">github.com/NateAsferi</a></p>
+    <p>Email: <a href="mailto:nasferi@gmu.edu">nasferi@gmu.edu</a></p>
+    <p>
+      <a href="https://linkedin.com/in/nathan-asferi-603714265">LinkedIn</a> | 
+      <a href="https://github.com/NateAsferi">GitHub</a>
+    </p>
   </section>
+
+  <footer>
+    <p>© 2025 Nathan Asferi</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
