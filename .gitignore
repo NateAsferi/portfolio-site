@@ -1,0 +1,10 @@
+# Dependency folders
+/node_modules
+
+# Build output folder
+/dist
+
+# Logs and temporary files
+npm-debug.log
+.env
+.DS_Store
