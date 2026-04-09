@@ -24,7 +24,7 @@ section {
 header {
   background: #0d1117;
   color: #fff;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
   text-align: center;
   position: sticky;
   top: 0;
@@ -36,7 +36,7 @@ nav ul {
   display: flex;
   justify-content: center;
   gap: 1.5rem;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 nav a {
   color: #fff;
@@ -44,7 +44,7 @@ nav a {
 }
 
 .hero {
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
 }
 .hero h2 {
   font-size: 2rem;
@@ -59,8 +59,21 @@ nav a {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   transition: transform 0.2s ease;
 }
-.project:hover {
-  transform: translateY(-4px);
+.project-badge {
+  color: #fff;
+  padding: 0.25rem 0.5rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-left: 0.5rem;
+}
+
+.public-badge {
+  background: #28a745;
+}
+
+.school-badge {
+  background: #fd7e14;
 }
 
 .skills-list {
