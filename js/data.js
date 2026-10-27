@@ -7,7 +7,7 @@ const RESUME = {
   role: "Computer Science · George Mason University",
   blurb: "I'm a CS student graduating in December 2026. I build custom tools and web apps for client businesses at Salam Consulting, and I teach kids to code with STEM exCEL.",
   facts: ["Herndon, VA", "B.S. Computer Science, Dec. 2026", "Software Engineering Intern"],
-  email: "nasferi@gmu.edu",
+  email: "nathanasferi0@gmail.com",
   links: [
     { label: "GitHub", url: "https://github.com/NateAsferi" },
     { label: "LinkedIn", url: "https://www.linkedin.com/in/nathan-asferi" }
