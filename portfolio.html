@@ -1,0 +1,94 @@
+<title>Aero Channel Portfolio</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700;800&family=Nunito:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+
+<canvas id="bubbles" aria-hidden="true"></canvas>
+<div class="swoosh one" aria-hidden="true"></div>
+<div class="swoosh two" aria-hidden="true"></div>
+
+<main class="wrap">
+  <header class="hero" id="top">
+    <div class="orb" aria-hidden="true"><span id="initials"></span></div>
+    <div class="hero-text">
+      <div class="eyebrow" id="role"></div>
+      <h1 id="hello"></h1>
+      <p class="blurb" id="blurb"></p>
+      <div class="chips" id="facts"></div>
+    </div>
+  </header>
+
+  <section class="section" id="skills" aria-labelledby="skills-h">
+    <div class="section-head">
+      <h2 id="skills-h">Skill Channels</h2>
+      <p>Pick a channel to see the skills and where I've used them.</p>
+    </div>
+    <div class="channels" id="channels"></div>
+  </section>
+
+  <section class="section" id="experience" aria-labelledby="exp-h">
+    <div class="section-head">
+      <h2 id="exp-h">Message Board</h2>
+      <p>Work experience, newest first.</p>
+    </div>
+    <div class="board" id="board"></div>
+  </section>
+
+  <section class="section" id="projects" aria-labelledby="proj-h">
+    <div class="section-head">
+      <h2 id="proj-h">Projects</h2>
+      <p>Most are on <a href="https://github.com/NateAsferi" target="_blank" rel="noopener">GitHub</a>.</p>
+    </div>
+    <div class="projects" id="project-list"></div>
+  </section>
+
+  <section class="section split" id="contact">
+    <div class="glass card" id="education"></div>
+    <div class="glass card">
+      <h3>Send a message</h3>
+      <p class="muted">Email is the quickest way to reach me.</p>
+      <div class="email-row">
+        <span class="email" id="email"></span>
+        <button class="btn" id="copy" type="button">Copy</button>
+      </div>
+      <div class="links" id="links"></div>
+    </div>
+  </section>
+
+  <footer class="note">Nathan Asferi · Herndon, VA</footer>
+</main>
+
+<nav class="console" aria-label="Quick navigation">
+  <a class="round" href="#top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>
+  </a>
+  <div class="clock" aria-live="off">
+    <div class="time" id="time">--:--</div>
+    <div class="date" id="date"></div>
+  </div>
+  <a class="round" href="#contact" aria-label="Contact">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M4 7l8 6 8-6"/></svg>
+  </a>
+</nav>
+
+<div class="overlay" id="overlay" hidden>
+  <div class="channel-screen" role="dialog" aria-modal="true" aria-labelledby="ch-title" id="channel-screen">
+    <div class="banner" id="ch-banner">
+      <span id="ch-icon"></span>
+      <div class="text">
+        <h2 id="ch-title"></h2>
+        <p id="ch-summary"></p>
+      </div>
+    </div>
+    <ul class="skill-list" id="ch-skills"></ul>
+    <div class="screen-actions">
+      <button class="btn" id="ch-menu" type="button">Wii Menu</button>
+      <button class="btn primary" id="ch-next" type="button">Next Channel</button>
+    </div>
+  </div>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
